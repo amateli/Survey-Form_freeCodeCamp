@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(45deg, #363131 0%, #231747a0 50%, #0000 100%);
+  background-repeat: round;
+  color: #f3f3f3;
+  margin: 0;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+h1, p {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 8px; 
+  font-size: 32px;
+}
+
+p {
+  font-style: italic;
+  margin-bottom: 40px;
+  font-weight: 200;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #1b1b32cc;
+  padding: 40px;
+  border-radius: 5px;
+  max-width: 800px;
+}
+
+label,legend {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 0;
+}
+
+[type="text"],
+[type="email"],
+[type="number"],
+select {
+  width: inherit;
+  border-radius: 2px;
+  border: none;
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  color: #495057;
+  font-size: 16px;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+legend,
+[for^="fe"] {
+  margin-top: 20px;
+}
+
+fieldset > label:first-of-type {
+  margin-top: 0;
+}
+
+[type="radio"],
+[type="checkbox"] {
+  margin: 0 10px 0 0;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+[for^="co"] {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+[type^="s"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #f3f3f3;
+  background-color: #37af65;
+  border-radius: 2px;
+  border: 1px solid #37af65;
+  margin: 20px 0;
+}
